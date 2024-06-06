@@ -1,0 +1,7 @@
+list =["APPLE","BANANA","MANGO"]
+for x in list:
+    print(x)
+
+s="AIML"
+for y in s:
+    print(y) 
