@@ -1,0 +1,4 @@
+x,y,z="AI",911,"scem"
+print(x)
+print(y)
+print(z)
