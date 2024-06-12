@@ -1,0 +1,11 @@
+#change item in list
+
+list = ["apple", "banana", "cherry"]
+list[1] = "Mango"
+
+print(list)
+
+#check if list  item is empty
+list1 = ["apple", "banana", "cherry"]
+if "Apple" in list1:
+  print("Yes, 'apple' is in the fruits list")
