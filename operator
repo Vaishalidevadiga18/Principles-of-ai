@@ -1,0 +1,26 @@
+#moudlus
+x=8
+y=5
+print(x%y)
+
+#multiplication
+
+x=8
+y=6
+print(x*y
+
+# assignment
+
+x=9
+print(x)
+
+#addition
+
+x=7
+y=13
+print(x+y)
+
+#subtraction 
+x=9
+y=3
+print(x-y)
