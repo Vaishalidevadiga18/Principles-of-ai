@@ -1,0 +1,5 @@
+sub  = ["ooc", "dsa", "daa","pai"]
+for x in sub:
+  if x == "dsa":
+    continue
+  print(x)
