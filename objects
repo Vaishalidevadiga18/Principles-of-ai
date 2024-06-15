@@ -1,0 +1,15 @@
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+  def myfunc__name(self):
+    print("Hello my name is " + self.name)
+    
+  def myfunc_age(self):
+    print("Hello my name is " + str(self.age))
+    
+
+p1 = Person("ABC", 16)
+p1.myfunc__name()
+p1.myfunc_age()
