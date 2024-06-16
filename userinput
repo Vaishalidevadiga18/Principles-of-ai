@@ -1,0 +1,6 @@
+name = input("Enter name:")
+usn=input("enter usn:")
+print("Name is: " + name)
+
+
+print("USN:"+usn)
