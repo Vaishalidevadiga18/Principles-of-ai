@@ -1,0 +1,8 @@
+age=int(input("enter age:"))
+
+if age<18:
+    print("not eligible to vote")
+elif age>=60:
+    print("retirement")
+else:
+    print("Eligible")
