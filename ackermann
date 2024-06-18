@@ -1,0 +1,18 @@
+
+def ackermann(m, n):
+    if m==0:
+        return (n+1)
+    elif (n==0)and(m>0) :
+        return (ackermann(m-1,1))
+    else :
+        return ackermann (m-1,ackermann(m,n-1))
+
+if __name__ == "__main__":
+    try:
+        m, n = input("Enter two values: ").split()
+        m = int(m)
+        n = int(n)
+        result = ackermann(m, n)
+        print(f"Ackermann({m}, {n}) = {result}")
+    except ValueError:
+        print("Please enter valid integers.")
