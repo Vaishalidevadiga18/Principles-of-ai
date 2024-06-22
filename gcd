@@ -1,0 +1,13 @@
+
+def gcd(a, b):
+	if(b == 0):
+		return abs(a)
+	else:
+		return gcd(b, a % b)
+
+a = 98
+b = 30
+
+# prints 12
+print("The gcd of given number is  : ", end="")
+print(gcd(a, b))
