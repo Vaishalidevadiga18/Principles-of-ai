@@ -1,0 +1,25 @@
+
+
+
+def mergeSort(arr, l, r):
+	if l < r:
+
+		
+		m = l+(r-l)//2
+
+		
+		mergeSort(arr, l, m)
+		mergeSort(arr, m+1, r)
+		merge(arr, l, m, r)
+
+
+arr = [23,45,67,12,78,90,45]
+n = len(arr)
+print("Given array is")
+for i in range(n):
+	print("%d" % arr[i],end=" ")
+
+mergeSort(arr, 0, n-1)
+print("\n\nSorted array is")
+for i in range(n):
+	print("%d" % arr[i],end=" ")
