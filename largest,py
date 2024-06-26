@@ -1,0 +1,14 @@
+def find_largest_number(numbers):
+    if not numbers:
+        return None  
+    
+    largest = numbers[0]
+    for number in numbers:
+        if number > largest:
+            largest = number
+    return largest
+
+
+numbers = [93, 41, 12, 45, 4, 15]
+largest_number = find_largest_number(numbers)
+print(f"The largest number in the list is: {largest_number}")
