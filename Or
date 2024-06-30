@@ -1,0 +1,5 @@
+a = 45
+b = 33
+c = 25
+if a > b or a > c:
+  print("At least one of the conditions is True")
