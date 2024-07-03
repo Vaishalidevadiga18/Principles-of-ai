@@ -1,0 +1,2 @@
+a = "Virat johli"
+print(a.replace("j", "k"))
