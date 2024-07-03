@@ -1,0 +1,2 @@
+a = "PAI CN"
+print(a.lower())
