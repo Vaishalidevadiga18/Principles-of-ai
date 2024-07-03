@@ -1,0 +1,3 @@
+name ="vaishali"
+txt = f"My name is {name}"
+print(txt)
