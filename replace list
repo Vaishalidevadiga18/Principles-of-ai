@@ -1,0 +1,3 @@
+fruit = ["apple", "banana", "cherry"]
+fruit[1] = "Mango"
+print(fruit)
